@@ -1,0 +1,424 @@
+* {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*Nav bar*/
+.login__bar {
+  display: flex;
+  justify-content: end;
+  padding: 0.3rem 0;
+  background-color: rgb(39, 39, 39);
+}
+
+.login__bar a {
+  color: #fff;
+  font-size: 1.7rem;
+  margin-right: 1.3rem;
+}
+.login__bar a:hover {
+  color: #ff97dc;
+}
+.container__nav {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav {
+  flex-basis: 250px;
+  padding-right: 2rem;
+  font-size: 1.5rem;
+}
+.nav__link {
+  vertical-align: middle;
+  padding-left: 5rem;
+  text-decoration: none;
+  color: #000;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.nav__link:hover {
+  color: #ff97dc;
+}
+
+/* Imagen principal */
+.title {
+  background-image: url(../img/portada.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-position: top;
+  padding-top: 6rem;
+  padding-left: 1.5rem;
+  font-size: 7rem;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* Home */
+.title__servicios {
+  text-align: center;
+  font-size: 6rem;
+  color: palevioletred;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.descripcion__servicios {
+  padding-bottom: 2rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.servicios p {
+  padding-bottom: 2rem;
+  width: 80%;
+  margin: 0 auto;
+  text-align: justify;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.box {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  margin: 1rem;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.box__title {
+  padding-left: 1rem;
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.box__text {
+  padding-left: 1rem;
+}
+.titulo-comentarios {
+  margin-left: 1rem;
+}
+.comentarios {
+  width: 14rem;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* Login */
+.container__nav-login {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.imagen__logo {
+  width: 200px;
+  height: auto;
+  padding-bottom: 1rem;
+}
+.form {
+  display: flex;
+  flex-basis: 65%;
+  flex-direction: column;
+  height: 70vh;
+  justify-content: center;
+  align-items: center;
+}
+.form__title {
+  font-size: 2.5rem;
+}
+.form__label {
+  font-size: 1.2rem;
+}
+.form__input-email {
+  margin: 0.5rem;
+  width: 14rem;
+  border-radius: 3px;
+  border: 1px solid palevioletred;
+}
+.form__input {
+  margin: 0.5rem;
+  width: 12rem;
+  border-radius: 3px;
+  border: 1px solid palevioletred;
+}
+.b__form-1 {
+  margin-top: 1.5rem;
+  width: 8.5rem;
+  font-size: 1.2rem;
+  background-color: black;
+  color: #fff;
+  font-variant: small-caps;
+  border-radius: 3px;
+  border: 1px solid black;
+}
+.b__form-2 {
+  width: 8.5rem;
+  font-size: 1.2rem;
+  background-color: black;
+  color: #fff;
+  font-variant: small-caps;
+  border-radius: 3px;
+  border: 1px solid black;
+}
+.link__contraseña {
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+.form__question {
+  font-size: 1.2rem;
+  padding: 1rem;
+}
+.form__input-registro {
+  width: 10rem;
+  font-size: 1.2rem;
+  background-color: palevioletred;
+  color: #fff;
+  font-variant: small-caps;
+  border-radius: 3px;
+  border: 1px solid palevioletred;
+}
+
+#nuevo-usuario {
+  display: none;
+  padding: 2rem;
+  background-color: palevioletred;
+}
+
+#btn-submit {
+  width: 17rem;
+}
+
+/* Tienda */
+.selectores {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+.busqueda {
+  margin-right: 2rem;
+}
+.input-buscar {
+  margin-right: 0.3rem;
+  padding: 0.2rem;
+  border-radius: 3px;
+  border: none;
+}
+.boton-buscar {
+  padding: 0.1rem;
+  background-color: #fac8e9;
+  border: none;
+  width: 4rem;
+  border-radius: 3px;
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+.contenedor-prod {
+  padding-bottom: 2rem;
+}
+.contenedor_pagos {
+  margin-bottom: 2rem;
+}
+.card__pagos {
+  width: 16rem;
+  height: 24rem;
+  padding: 1rem;
+}
+.vaciar-carrito {
+  margin-bottom: 2rem;
+}
+#carrito-compras {
+  margin-left: 1rem;
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+.botonesCompra {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.finalizarCompra {
+  margin-left: 1rem;
+}
+
+/* Contacto */
+.form-contacto {
+  display: flex;
+  flex-basis: 65%;
+  flex-direction: column;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+}
+.textarea {
+  font-size: 1.5rem;
+}
+.form__input--textarea {
+  width: 17rem;
+  height: 200px;
+  outline: none;
+  border: 1.4px solid rgb(201, 196, 196);
+  border-radius: 10px;
+}
+.mensaje {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: #000;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.mostrar {
+  color: red;
+  text-align: center;
+}
+
+/* Footer */
+
+.footer__container {
+  width: 100%;
+  margin: 0;
+  padding: 1.5rem;
+  max-width: 1400px;
+  background-color: #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer__links {
+  padding: 1rem;
+  font-size: 2rem;
+  color: #fac8e9;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.footer__links:hover {
+  opacity: 1;
+  color: #f83cb9;
+}
+
+.footer__container h4 {
+  font-size: 1.2rem;
+  color: #fff;
+  font-variant: small-caps;
+  letter-spacing: 0.1rem;
+}
+
+@media (max-width: 600px) {
+  .nav-login {
+    display: none;
+  }
+  .form-login {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .b__form-1 {
+    width: 7.5rem;
+  }
+  .b__form-2 {
+    width: 7rem;
+  }
+  .form__input-registro {
+    width: 15rem;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+  }
+  .logo img {
+    width: 220px;
+    height: auto;
+  }
+  .nav__desk {
+    display: none;
+  }
+  .nav__toggler {
+    width: 100%;
+  }
+  .nav__item {
+    list-style: none;
+  }
+  .nav-a {
+    color: #fff;
+    font-size: 1.2rem;
+    text-decoration: none;
+    list-style: none;
+  }
+  .nav-a:hover {
+    color: #f83cb9;
+  }
+  .form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 0%;
+  }
+  .title {
+    display: none;
+  }
+  .title__servicios {
+    margin: 1.2rem;
+    text-align: center;
+    font-size: 4rem;
+  }
+  .descripcion__servicios {
+    padding: 0 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  .box__title {
+    padding-left: 1rem;
+    font-size: 2rem;
+  }
+  .footer__container {
+    flex-direction: column;
+  }
+  .footer__links {
+    font-size: 1.8rem;
+  }
+  .footer__container h4 {
+    font-size: 1rem;
+    padding: 0.7rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .container__nav {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 600px) {
+  .hamburguesa {
+    display: none;
+  }
+  .logo {
+    display: none;
+  }
+}

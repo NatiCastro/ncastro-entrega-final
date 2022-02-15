@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- Fonts -->
+    <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300;600&display=swap" rel="stylesheet">
+    <!-- Iconos fontawesome -->
+    <script
+    src="https://kit.fontawesome.com/04b6cfb99e.js"
+    crossorigin="anonymous"
+    ></script>
+    <title>Beauty Nails</title>
+  </head>
+  <body>
+    <!-- Nav bar login -->
+    <div class="login__bar">
+      <p id="saludo"></p>
+      <a href="/pages/login.html"><i class="fas fa-user"></i></a>
+    </div>
+    <!-- Nav principal -->
+    <div class="container__nav-login">
+        <ul class="nav nav-login flex-column">
+          <li>
+            <img class="imagen__logo" src="/img/nails.png" alt="">
+          </li>
+          <li class="nav-item">
+            <a class="nav__link" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav__link" href="/pages/login.html">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav__link" href="/pages/tienda.html">Tienda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav__link" href="/pages/contacto.html">contacto</a>
+          </li>
+        </ul> 
+        <section class="form form-login">
+            <h1 class="form__title">Inicia Sesión</h1>
+            <main class="form__container">
+              <form id="login">
+                  <label class="form__label" for="email">E-mail</label>
+                  <input class="form__input-email" type="email" name="email" id="mail" /> <br />
+                  <label class="form__label" for="password">Contraseña</label>
+                  <input class="form__input" type="password" name="" id="password" /> <br />
+                  <input class="b__form-1" type="submit" value="entrar" />
+                  <input class="b__form-2" type="reset" id="index" value="borrar" /><br>
+                  <label class="form__question" for="">Eres nuev@?</label>
+                  <input class="form__input-registro" type="button" name="" id="btn-registro" value="Registrate Aquí" /> <br />
+              </form>    
+            <main/>
+    </div>
+    <div id="nuevo-usuario">
+      <form id="registro-nuevo" action="">
+        <label class="form__label" for="name">Nombre</label>
+        <input class="form__input" type="text" name="" id="nuevo-nombre" /> <br />
+        <label class="form__label" for="email">E-mail</label>
+        <input class="form__input-email" type="email" name="email" id="nuevo-mail" /> <br />
+        <label class="form__label" for="password">Contraseña</label>
+        <input class="form__input" type="password" name="" id="nueva-password" /> <br />
+        <button class="b__form-1" type="button" id="btn-submit" value="Enviar">Mandar</<button/>
+      </form>
+    </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="/js/script-login.js"></script>
+</body>
+</html>
